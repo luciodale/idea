@@ -18,5 +18,5 @@ app.get('/stop', (_req, res) => {
 app.use('/strategies', strategiesRouter);
 
 app.listen(port, () => {
-  console.log(`server started at http://localhost:${port}`);
+  console.log(`Strategy server started at http://localhost:${port}`);
 });

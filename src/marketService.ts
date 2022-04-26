@@ -12,5 +12,5 @@ app.get('/market-data', (_req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`server started at http://localhost:${port}`);
+  console.log(`Market server started at http://localhost:${port}`);
 });
